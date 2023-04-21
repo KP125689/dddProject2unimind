@@ -40,6 +40,7 @@
             this.Name = "mediationandMindfullness";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "mediationandMindfullness";
+            this.Load += new System.EventHandler(this.mediationandMindfullness_Load);
             this.ResumeLayout(false);
 
         }

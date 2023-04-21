@@ -16,5 +16,10 @@ namespace dddProject2
         {
             InitializeComponent();
         }
+
+        private void mediationandMindfullness_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
