@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace dddProject2
 {
-    public partial class Form1 : Form
+    public partial class logmoodPage : Form
     {
-        public Form1()
+        public logmoodPage()
         {
             InitializeComponent();
         }
