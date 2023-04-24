@@ -7,14 +7,21 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using ComponentFactory.Krypton;
+using ComponentFactory.Krypton.Toolkit;
 
 namespace dddProject2
 {
-    public partial class LoginPage : Form
+    public partial class LoginPage : KryptonForm
     {
         public LoginPage()
         {
             InitializeComponent();
+        }
+
+        private void kryptonLabel1_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }
