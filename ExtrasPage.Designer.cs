@@ -41,7 +41,7 @@
             this.ExtraTitle.AutoSize = true;
             this.ExtraTitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F);
             this.ExtraTitle.ForeColor = System.Drawing.SystemColors.Control;
-            this.ExtraTitle.Location = new System.Drawing.Point(121, 43);
+            this.ExtraTitle.Location = new System.Drawing.Point(118, 31);
             this.ExtraTitle.Name = "ExtraTitle";
             this.ExtraTitle.Size = new System.Drawing.Size(191, 58);
             this.ExtraTitle.TabIndex = 0;
@@ -51,9 +51,9 @@
             // 
             this.JHbutton.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.JHbutton.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.JHbutton.Location = new System.Drawing.Point(84, 131);
+            this.JHbutton.Location = new System.Drawing.Point(73, 132);
             this.JHbutton.Name = "JHbutton";
-            this.JHbutton.Size = new System.Drawing.Size(252, 43);
+            this.JHbutton.Size = new System.Drawing.Size(283, 80);
             this.JHbutton.TabIndex = 1;
             this.JHbutton.Text = "Journal histoy";
             this.JHbutton.UseVisualStyleBackColor = false;
@@ -63,9 +63,9 @@
             // 
             this.SpeakToSomeoneButton.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.SpeakToSomeoneButton.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.SpeakToSomeoneButton.Location = new System.Drawing.Point(83, 278);
+            this.SpeakToSomeoneButton.Location = new System.Drawing.Point(73, 364);
             this.SpeakToSomeoneButton.Name = "SpeakToSomeoneButton";
-            this.SpeakToSomeoneButton.Size = new System.Drawing.Size(252, 43);
+            this.SpeakToSomeoneButton.Size = new System.Drawing.Size(283, 70);
             this.SpeakToSomeoneButton.TabIndex = 2;
             this.SpeakToSomeoneButton.Text = "speak to someone";
             this.SpeakToSomeoneButton.UseVisualStyleBackColor = false;
@@ -74,9 +74,9 @@
             // 
             this.getSocialButton.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.getSocialButton.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.getSocialButton.Location = new System.Drawing.Point(84, 358);
+            this.getSocialButton.Location = new System.Drawing.Point(73, 471);
             this.getSocialButton.Name = "getSocialButton";
-            this.getSocialButton.Size = new System.Drawing.Size(252, 43);
+            this.getSocialButton.Size = new System.Drawing.Size(283, 68);
             this.getSocialButton.TabIndex = 3;
             this.getSocialButton.Text = "Get Social";
             this.getSocialButton.UseVisualStyleBackColor = false;
@@ -85,9 +85,9 @@
             // 
             this.EmergencyContactButton.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.EmergencyContactButton.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.EmergencyContactButton.Location = new System.Drawing.Point(83, 445);
+            this.EmergencyContactButton.Location = new System.Drawing.Point(73, 582);
             this.EmergencyContactButton.Name = "EmergencyContactButton";
-            this.EmergencyContactButton.Size = new System.Drawing.Size(252, 43);
+            this.EmergencyContactButton.Size = new System.Drawing.Size(283, 72);
             this.EmergencyContactButton.TabIndex = 4;
             this.EmergencyContactButton.Text = "Emergency Contact";
             this.EmergencyContactButton.UseVisualStyleBackColor = false;
@@ -96,9 +96,9 @@
             // 
             this.MnMButton.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.MnMButton.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.MnMButton.Location = new System.Drawing.Point(84, 203);
+            this.MnMButton.Location = new System.Drawing.Point(73, 251);
             this.MnMButton.Name = "MnMButton";
-            this.MnMButton.Size = new System.Drawing.Size(252, 43);
+            this.MnMButton.Size = new System.Drawing.Size(283, 72);
             this.MnMButton.TabIndex = 5;
             this.MnMButton.Text = "Mindfullness";
             this.MnMButton.UseVisualStyleBackColor = false;
@@ -110,7 +110,7 @@
             this.AutoSize = true;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.ClientSize = new System.Drawing.Size(397, 586);
+            this.ClientSize = new System.Drawing.Size(441, 701);
             this.Controls.Add(this.MnMButton);
             this.Controls.Add(this.EmergencyContactButton);
             this.Controls.Add(this.getSocialButton);

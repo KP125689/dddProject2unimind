@@ -21,5 +21,10 @@ namespace dddProject2
         {
 
         }
+
+        private void HullSSButton_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

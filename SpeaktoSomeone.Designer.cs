@@ -59,36 +59,36 @@
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.pictureBox1.Location = new System.Drawing.Point(24, 110);
+            this.pictureBox1.Location = new System.Drawing.Point(24, 131);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(124, 77);
+            this.pictureBox1.Size = new System.Drawing.Size(162, 116);
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
             // 
             // pictureBox4
             // 
             this.pictureBox4.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.pictureBox4.Location = new System.Drawing.Point(24, 408);
+            this.pictureBox4.Location = new System.Drawing.Point(24, 577);
             this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(124, 58);
+            this.pictureBox4.Size = new System.Drawing.Size(162, 90);
             this.pictureBox4.TabIndex = 4;
             this.pictureBox4.TabStop = false;
             // 
             // pictureBox5
             // 
             this.pictureBox5.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.pictureBox5.Location = new System.Drawing.Point(24, 313);
+            this.pictureBox5.Location = new System.Drawing.Point(24, 435);
             this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(124, 66);
+            this.pictureBox5.Size = new System.Drawing.Size(162, 99);
             this.pictureBox5.TabIndex = 5;
             this.pictureBox5.TabStop = false;
             // 
             // pictureBox6
             // 
             this.pictureBox6.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.pictureBox6.Location = new System.Drawing.Point(24, 212);
+            this.pictureBox6.Location = new System.Drawing.Point(24, 291);
             this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(124, 78);
+            this.pictureBox6.Size = new System.Drawing.Size(162, 96);
             this.pictureBox6.TabIndex = 6;
             this.pictureBox6.TabStop = false;
             // 
@@ -97,9 +97,9 @@
             this.samaritanButton.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.samaritanButton.BackColor = System.Drawing.SystemColors.MenuHighlight;
             this.samaritanButton.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.samaritanButton.Location = new System.Drawing.Point(191, 139);
+            this.samaritanButton.Location = new System.Drawing.Point(211, 165);
             this.samaritanButton.Name = "samaritanButton";
-            this.samaritanButton.Size = new System.Drawing.Size(181, 48);
+            this.samaritanButton.Size = new System.Drawing.Size(202, 65);
             this.samaritanButton.TabIndex = 7;
             this.samaritanButton.Text = "Samaritans";
             this.samaritanButton.UseVisualStyleBackColor = false;
@@ -108,20 +108,21 @@
             // 
             this.HullSSButton.BackColor = System.Drawing.SystemColors.MenuHighlight;
             this.HullSSButton.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.HullSSButton.Location = new System.Drawing.Point(191, 242);
+            this.HullSSButton.Location = new System.Drawing.Point(210, 308);
             this.HullSSButton.Name = "HullSSButton";
-            this.HullSSButton.Size = new System.Drawing.Size(181, 48);
+            this.HullSSButton.Size = new System.Drawing.Size(202, 63);
             this.HullSSButton.TabIndex = 8;
             this.HullSSButton.Text = "Hull student Services";
             this.HullSSButton.UseVisualStyleBackColor = false;
+            this.HullSSButton.Click += new System.EventHandler(this.HullSSButton_Click);
             // 
             // uniwellbeingButton
             // 
             this.uniwellbeingButton.BackColor = System.Drawing.SystemColors.MenuHighlight;
             this.uniwellbeingButton.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.uniwellbeingButton.Location = new System.Drawing.Point(191, 331);
+            this.uniwellbeingButton.Location = new System.Drawing.Point(210, 449);
             this.uniwellbeingButton.Name = "uniwellbeingButton";
-            this.uniwellbeingButton.Size = new System.Drawing.Size(181, 48);
+            this.uniwellbeingButton.Size = new System.Drawing.Size(202, 66);
             this.uniwellbeingButton.TabIndex = 9;
             this.uniwellbeingButton.Text = "UniWellbeing";
             this.uniwellbeingButton.UseVisualStyleBackColor = false;
@@ -130,9 +131,9 @@
             // 
             this.childlineButton.BackColor = System.Drawing.SystemColors.MenuHighlight;
             this.childlineButton.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.childlineButton.Location = new System.Drawing.Point(191, 418);
+            this.childlineButton.Location = new System.Drawing.Point(210, 595);
             this.childlineButton.Name = "childlineButton";
-            this.childlineButton.Size = new System.Drawing.Size(181, 48);
+            this.childlineButton.Size = new System.Drawing.Size(202, 60);
             this.childlineButton.TabIndex = 10;
             this.childlineButton.Text = "ChildLine";
             this.childlineButton.UseVisualStyleBackColor = false;
@@ -142,7 +143,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.ClientSize = new System.Drawing.Size(429, 590);
+            this.ClientSize = new System.Drawing.Size(439, 706);
             this.Controls.Add(this.childlineButton);
             this.Controls.Add(this.uniwellbeingButton);
             this.Controls.Add(this.HullSSButton);

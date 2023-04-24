@@ -36,10 +36,11 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.ClientSize = new System.Drawing.Size(425, 564);
+            this.ClientSize = new System.Drawing.Size(447, 704);
             this.Name = "Samaritans";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Samaritans";
+            this.Load += new System.EventHandler(this.Samaritans_Load);
             this.ResumeLayout(false);
 
         }

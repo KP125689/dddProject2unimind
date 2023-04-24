@@ -16,5 +16,10 @@ namespace dddProject2
         {
             InitializeComponent();
         }
+
+        private void homePage_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
