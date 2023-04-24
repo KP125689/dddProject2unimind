@@ -12,7 +12,7 @@ namespace dddProject2
     public partial class InsightsPage : Form
     {
 
-
+         
         public InsightsPage()
         {
             InitializeComponent();
