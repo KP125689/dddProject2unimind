@@ -7,12 +7,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using ComponentFactory.Krypton;
-using ComponentFactory.Krypton.Toolkit;
+
 
 namespace dddProject2
 {
-    public partial class LoginPage : KryptonForm
+    public partial class LoginPage : Form
     {
         public LoginPage()
         {
@@ -20,6 +19,16 @@ namespace dddProject2
         }
 
         private void kryptonLabel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
         {
 
         }
