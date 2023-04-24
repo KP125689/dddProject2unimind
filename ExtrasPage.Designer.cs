@@ -110,7 +110,7 @@
             this.AutoSize = true;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.ClientSize = new System.Drawing.Size(420, 597);
+            this.ClientSize = new System.Drawing.Size(397, 586);
             this.Controls.Add(this.MnMButton);
             this.Controls.Add(this.EmergencyContactButton);
             this.Controls.Add(this.getSocialButton);
