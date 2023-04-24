@@ -36,6 +36,12 @@
     <Reference Include="BouncyCastle.Crypto, Version=1.9.0.0, Culture=neutral, PublicKeyToken=0e99375e54769942, processorArchitecture=MSIL">
       <HintPath>packages\Portable.BouncyCastle.1.9.0\lib\net40\BouncyCastle.Crypto.dll</HintPath>
     </Reference>
+    <Reference Include="ComponentFactory.Krypton.Docking">
+      <HintPath>..\..\..\Desktop\Krypton-master\Bin\ComponentFactory.Krypton.Docking.dll</HintPath>
+    </Reference>
+    <Reference Include="ComponentFactory.Krypton.Toolkit">
+      <HintPath>..\..\..\Desktop\Krypton-master\Bin\ComponentFactory.Krypton.Toolkit.dll</HintPath>
+    </Reference>
     <Reference Include="Google.Protobuf, Version=3.21.9.0, Culture=neutral, PublicKeyToken=a7d26565bac4d604, processorArchitecture=MSIL">
       <HintPath>packages\Google.Protobuf.3.21.9\lib\net45\Google.Protobuf.dll</HintPath>
     </Reference>
@@ -93,6 +99,7 @@
     </Reference>
     <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
     <Reference Include="System.IO.Pipelines, Version=5.0.0.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
       <HintPath>packages\System.IO.Pipelines.5.0.2\lib\net461\System.IO.Pipelines.dll</HintPath>
     </Reference>
@@ -208,6 +215,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="Samaritans.resx">
       <DependentUpon>Samaritans.cs</DependentUpon>
@@ -228,6 +236,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %281%291.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
