@@ -22,7 +22,7 @@ namespace dddProject2
         {
             var openAI = new OpenAIAPI("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");
             CompletionRequest completionRequest = new CompletionRequest();
-            completionRequest.Prompt = richTextBox1.Text;
+            completionRequest.Prompt = richTextBox1.Text; //the request is taken from this textbox that the user writes in.
             completionRequest.Model = OpenAI_API.Models.Model.DavinciText;
             completionRequest.MaxTokens = 2000;
 
