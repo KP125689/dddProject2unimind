@@ -282,6 +282,21 @@
   <ItemGroup>
     <None Include="Resources\23232.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SAMARITANS-LAUNCHES-APP.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Samaritans-new-logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\unnamed.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\uniwellbeing-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download3.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
     <PostBuildEvent>xcopy /y /d "$(SolutionDir)packages\OpenAI.API.*\lib\net*\OpenAI_API.dll" "$(TargetDir)"
