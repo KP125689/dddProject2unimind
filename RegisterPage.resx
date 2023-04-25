@@ -126,7 +126,7 @@
     <value>Microsoft Sans Serif, 36pt, style=Bold</value>
   </data>
   <data name="registertitle.Location" type="System.Drawing.Point, System.Drawing">
-    <value>63, 62</value>
+    <value>78, 28</value>
   </data>
   <data name="registertitle.Size" type="System.Drawing.Size, System.Drawing">
     <value>260, 69</value>
@@ -150,7 +150,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;registertitle.ZOrder" xml:space="preserve">
-    <value>11</value>
+    <value>12</value>
   </data>
   <data name="usernametitle2.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -159,7 +159,7 @@
     <value>Microsoft Sans Serif, 14pt</value>
   </data>
   <data name="usernametitle2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>29, 160</value>
+    <value>29, 126</value>
   </data>
   <data name="usernametitle2.Size" type="System.Drawing.Size, System.Drawing">
     <value>135, 29</value>
@@ -180,7 +180,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;usernametitle2.ZOrder" xml:space="preserve">
-    <value>10</value>
+    <value>11</value>
   </data>
   <data name="FNtitle.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -193,7 +193,7 @@
     <value>NoControl</value>
   </data>
   <data name="FNtitle.Location" type="System.Drawing.Point, System.Drawing">
-    <value>29, 237</value>
+    <value>29, 203</value>
   </data>
   <data name="FNtitle.Size" type="System.Drawing.Size, System.Drawing">
     <value>131, 29</value>
@@ -214,7 +214,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;FNtitle.ZOrder" xml:space="preserve">
-    <value>9</value>
+    <value>10</value>
   </data>
   <data name="LNtitle.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -226,7 +226,7 @@
     <value>NoControl</value>
   </data>
   <data name="LNtitle.Location" type="System.Drawing.Point, System.Drawing">
-    <value>29, 292</value>
+    <value>29, 258</value>
   </data>
   <data name="LNtitle.Size" type="System.Drawing.Size, System.Drawing">
     <value>128, 29</value>
@@ -247,7 +247,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;LNtitle.ZOrder" xml:space="preserve">
-    <value>8</value>
+    <value>9</value>
   </data>
   <data name="Pwtitle.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -259,7 +259,7 @@
     <value>NoControl</value>
   </data>
   <data name="Pwtitle.Location" type="System.Drawing.Point, System.Drawing">
-    <value>29, 372</value>
+    <value>29, 338</value>
   </data>
   <data name="Pwtitle.Size" type="System.Drawing.Size, System.Drawing">
     <value>120, 29</value>
@@ -280,7 +280,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Pwtitle.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>8</value>
   </data>
   <data name="confpass.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -292,7 +292,7 @@
     <value>NoControl</value>
   </data>
   <data name="confpass.Location" type="System.Drawing.Point, System.Drawing">
-    <value>29, 435</value>
+    <value>29, 401</value>
   </data>
   <data name="confpass.Size" type="System.Drawing.Size, System.Drawing">
     <value>171, 25</value>
@@ -313,13 +313,13 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;confpass.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>7</value>
   </data>
   <data name="usernameTextBox.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 10pt</value>
   </data>
   <data name="usernameTextBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>166, 164</value>
+    <value>166, 130</value>
   </data>
   <data name="usernameTextBox.Size" type="System.Drawing.Size, System.Drawing">
     <value>213, 26</value>
@@ -337,13 +337,13 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;usernameTextBox.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>6</value>
   </data>
   <data name="LNbox.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 10pt</value>
   </data>
   <data name="LNbox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>166, 295</value>
+    <value>166, 261</value>
   </data>
   <data name="LNbox.Size" type="System.Drawing.Size, System.Drawing">
     <value>213, 26</value>
@@ -361,13 +361,13 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;LNbox.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>5</value>
   </data>
   <data name="FNbox.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 10pt</value>
   </data>
   <data name="FNbox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>166, 241</value>
+    <value>166, 207</value>
   </data>
   <data name="FNbox.Size" type="System.Drawing.Size, System.Drawing">
     <value>213, 26</value>
@@ -385,13 +385,13 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;FNbox.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>4</value>
   </data>
   <data name="Passwordbox.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 10pt</value>
   </data>
   <data name="Passwordbox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>166, 375</value>
+    <value>166, 341</value>
   </data>
   <data name="Passwordbox.Size" type="System.Drawing.Size, System.Drawing">
     <value>213, 26</value>
@@ -409,13 +409,13 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Passwordbox.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>3</value>
   </data>
   <data name="ConfirmPasswordBox.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 10pt</value>
   </data>
   <data name="ConfirmPasswordBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>206, 436</value>
+    <value>206, 402</value>
   </data>
   <data name="ConfirmPasswordBox.Size" type="System.Drawing.Size, System.Drawing">
     <value>173, 26</value>
@@ -433,16 +433,16 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;ConfirmPasswordBox.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>2</value>
   </data>
   <data name="completeRegister.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 10pt</value>
   </data>
   <data name="completeRegister.Location" type="System.Drawing.Point, System.Drawing">
-    <value>124, 494</value>
+    <value>90, 453</value>
   </data>
   <data name="completeRegister.Size" type="System.Drawing.Size, System.Drawing">
-    <value>164, 37</value>
+    <value>235, 43</value>
   </data>
   <data name="completeRegister.TabIndex" type="System.Int32, mscorlib">
     <value>11</value>
@@ -460,6 +460,36 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;completeRegister.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="gobackbutton2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10pt</value>
+  </data>
+  <data name="gobackbutton2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="gobackbutton2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>137, 517</value>
+  </data>
+  <data name="gobackbutton2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>147, 37</value>
+  </data>
+  <data name="gobackbutton2.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="gobackbutton2.Text" xml:space="preserve">
+    <value>Go Back</value>
+  </data>
+  <data name="&gt;&gt;gobackbutton2.Name" xml:space="preserve">
+    <value>gobackbutton2</value>
+  </data>
+  <data name="&gt;&gt;gobackbutton2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gobackbutton2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;gobackbutton2.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">

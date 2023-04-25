@@ -41,6 +41,7 @@
             this.Passwordbox = new System.Windows.Forms.TextBox();
             this.ConfirmPasswordBox = new System.Windows.Forms.TextBox();
             this.completeRegister = new System.Windows.Forms.Button();
+            this.gobackbutton2 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // registertitle
@@ -91,21 +92,25 @@
             // 
             resources.ApplyResources(this.LNbox, "LNbox");
             this.LNbox.Name = "LNbox";
+            this.LNbox.TextChanged += new System.EventHandler(this.LNbox_TextChanged);
             // 
             // FNbox
             // 
             resources.ApplyResources(this.FNbox, "FNbox");
             this.FNbox.Name = "FNbox";
+            this.FNbox.TextChanged += new System.EventHandler(this.FNbox_TextChanged);
             // 
             // Passwordbox
             // 
             resources.ApplyResources(this.Passwordbox, "Passwordbox");
             this.Passwordbox.Name = "Passwordbox";
+            this.Passwordbox.TextChanged += new System.EventHandler(this.Passwordbox_TextChanged);
             // 
             // ConfirmPasswordBox
             // 
             resources.ApplyResources(this.ConfirmPasswordBox, "ConfirmPasswordBox");
             this.ConfirmPasswordBox.Name = "ConfirmPasswordBox";
+            this.ConfirmPasswordBox.TextChanged += new System.EventHandler(this.ConfirmPasswordBox_TextChanged);
             // 
             // completeRegister
             // 
@@ -114,12 +119,23 @@
             this.completeRegister.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.completeRegister.Name = "completeRegister";
             this.completeRegister.UseVisualStyleBackColor = false;
+            this.completeRegister.Click += new System.EventHandler(this.completeRegister_Click);
+            // 
+            // gobackbutton2
+            // 
+            this.gobackbutton2.BackColor = System.Drawing.Color.CornflowerBlue;
+            resources.ApplyResources(this.gobackbutton2, "gobackbutton2");
+            this.gobackbutton2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.gobackbutton2.Name = "gobackbutton2";
+            this.gobackbutton2.UseVisualStyleBackColor = false;
+            this.gobackbutton2.Click += new System.EventHandler(this.gobackbutton2_Click);
             // 
             // RegisterPage
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.Controls.Add(this.gobackbutton2);
             this.Controls.Add(this.completeRegister);
             this.Controls.Add(this.ConfirmPasswordBox);
             this.Controls.Add(this.Passwordbox);
@@ -133,6 +149,7 @@
             this.Controls.Add(this.usernametitle2);
             this.Controls.Add(this.registertitle);
             this.Name = "RegisterPage";
+            this.Load += new System.EventHandler(this.RegisterPage_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -152,5 +169,6 @@
         private System.Windows.Forms.TextBox Passwordbox;
         private System.Windows.Forms.TextBox ConfirmPasswordBox;
         private System.Windows.Forms.Button completeRegister;
+        private System.Windows.Forms.Button gobackbutton2;
     }
 }

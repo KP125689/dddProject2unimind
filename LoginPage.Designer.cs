@@ -42,7 +42,7 @@
             this.logintitle.AutoSize = true;
             this.logintitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.logintitle.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.logintitle.Location = new System.Drawing.Point(110, 51);
+            this.logintitle.Location = new System.Drawing.Point(132, 43);
             this.logintitle.Name = "logintitle";
             this.logintitle.Size = new System.Drawing.Size(167, 58);
             this.logintitle.TabIndex = 0;
@@ -66,6 +66,7 @@
             this.usernametextbox.Name = "usernametextbox";
             this.usernametextbox.Size = new System.Drawing.Size(252, 26);
             this.usernametextbox.TabIndex = 2;
+            this.usernametextbox.TextChanged += new System.EventHandler(this.usernametextbox_TextChanged);
             // 
             // passwordlabel
             // 
@@ -116,6 +117,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSize = true;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.ClientSize = new System.Drawing.Size(418, 602);
@@ -130,6 +132,7 @@
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "LoginPage";
+            this.Load += new System.EventHandler(this.LoginPage_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
