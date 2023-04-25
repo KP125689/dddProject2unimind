@@ -78,7 +78,9 @@ namespace dddProject2
 
         private void gobackbutton_Click(object sender, EventArgs e)
         {
-            
+            Homepage2 homepage = new Homepage2();
+            homepage.Show();
+            this.Hide();
         }
     }
 }
