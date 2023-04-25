@@ -7,11 +7,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using ComponentFactory.Krypton.Toolkit;
+
 
 namespace dddProject2
 {
-    public partial class logmoodPage : KryptonForm
+    public partial class logmoodPage : Form
     {
         public logmoodPage()
         {
