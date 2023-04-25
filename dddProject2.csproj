@@ -141,11 +141,11 @@
     <Compile Include="HelloStudent.Designer.cs">
       <DependentUpon>HelloStudent.cs</DependentUpon>
     </Compile>
-    <Compile Include="homePage.cs">
+    <Compile Include="Samaritans.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="homePage.Designer.cs">
-      <DependentUpon>homePage.cs</DependentUpon>
+    <Compile Include="Samaritans.Designer.cs">
+      <DependentUpon>Samaritans.cs</DependentUpon>
     </Compile>
     <Compile Include="InsightsPage.cs">
       <SubType>Form</SubType>
@@ -173,11 +173,11 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Samaritans.cs">
+    <Compile Include="homepage.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Samaritans.Designer.cs">
-      <DependentUpon>Samaritans.cs</DependentUpon>
+    <Compile Include="homepage.Designer.cs">
+      <DependentUpon>homepage.cs</DependentUpon>
     </Compile>
     <Compile Include="SpeaktoSomeone.cs">
       <SubType>Form</SubType>
@@ -192,8 +192,8 @@
     <EmbeddedResource Include="HelloStudent.resx">
       <DependentUpon>HelloStudent.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="homePage.resx">
-      <DependentUpon>homePage.cs</DependentUpon>
+    <EmbeddedResource Include="Samaritans.resx">
+      <DependentUpon>Samaritans.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="InsightsPage.resx">
       <DependentUpon>InsightsPage.cs</DependentUpon>
@@ -217,8 +217,8 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="Samaritans.resx">
-      <DependentUpon>Samaritans.cs</DependentUpon>
+    <EmbeddedResource Include="homepage.resx">
+      <DependentUpon>homepage.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="SpeaktoSomeone.resx">
       <DependentUpon>SpeaktoSomeone.cs</DependentUpon>

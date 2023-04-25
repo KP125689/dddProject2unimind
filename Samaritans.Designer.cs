@@ -30,17 +30,18 @@
         {
             this.SuspendLayout();
             // 
-            // Samaritans
+            // homePage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSize = true;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.ClientSize = new System.Drawing.Size(447, 704);
-            this.Name = "Samaritans";
+            this.ClientSize = new System.Drawing.Size(444, 710);
+            this.Name = "homePage";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Samaritans";
-            this.Load += new System.EventHandler(this.Samaritans_Load);
+            this.Text = "Form1";
+            this.Load += new System.EventHandler(this.homePage_Load);
             this.ResumeLayout(false);
 
         }
@@ -48,3 +49,4 @@
         #endregion
     }
 }
+

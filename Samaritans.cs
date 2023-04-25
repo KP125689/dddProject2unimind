@@ -17,7 +17,7 @@ namespace dddProject2
             InitializeComponent();
         }
 
-        private void Samaritans_Load(object sender, EventArgs e)
+        private void homePage_Load(object sender, EventArgs e)
         {
 
         }
