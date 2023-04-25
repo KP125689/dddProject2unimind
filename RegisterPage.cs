@@ -8,19 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-
 namespace dddProject2
 {
-    public partial class LoginPage : Form
+    public partial class RegisterPage : Form
     {
-        public LoginPage()
+        public RegisterPage()
         {
             InitializeComponent();
-        }
-
-        private void kryptonLabel1_Paint(object sender, PaintEventArgs e)
-        {
-
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -28,17 +22,12 @@ namespace dddProject2
 
         }
 
-        private void textBox1_TextChanged(object sender, EventArgs e)
+        private void usernameTextBox_TextChanged(object sender, EventArgs e)
         {
 
         }
 
-        private void passwordbox_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void loginbutton2_Click(object sender, EventArgs e)
+        private void confpass_Click(object sender, EventArgs e)
         {
 
         }

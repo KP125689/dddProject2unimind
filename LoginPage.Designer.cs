@@ -31,7 +31,10 @@
             this.logintitle = new System.Windows.Forms.Label();
             this.usernamelabel = new System.Windows.Forms.Label();
             this.usernametextbox = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
+            this.passwordlabel = new System.Windows.Forms.Label();
+            this.passwordbox = new System.Windows.Forms.TextBox();
+            this.loginbutton2 = new System.Windows.Forms.Button();
+            this.gobackbutton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // logintitle
@@ -64,15 +67,50 @@
             this.usernametextbox.Size = new System.Drawing.Size(252, 26);
             this.usernametextbox.TabIndex = 2;
             // 
-            // label1
+            // passwordlabel
             // 
-            this.label1.AutoSize = true;
-            this.label1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label1.Location = new System.Drawing.Point(36, 338);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(67, 16);
-            this.label1.TabIndex = 3;
-            this.label1.Text = "Password";
+            this.passwordlabel.AutoSize = true;
+            this.passwordlabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.passwordlabel.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.passwordlabel.Location = new System.Drawing.Point(12, 317);
+            this.passwordlabel.Name = "passwordlabel";
+            this.passwordlabel.Size = new System.Drawing.Size(120, 29);
+            this.passwordlabel.TabIndex = 3;
+            this.passwordlabel.Text = "Password";
+            // 
+            // passwordbox
+            // 
+            this.passwordbox.CausesValidation = false;
+            this.passwordbox.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.passwordbox.Location = new System.Drawing.Point(142, 317);
+            this.passwordbox.Name = "passwordbox";
+            this.passwordbox.Size = new System.Drawing.Size(252, 26);
+            this.passwordbox.TabIndex = 4;
+            this.passwordbox.TextChanged += new System.EventHandler(this.passwordbox_TextChanged);
+            // 
+            // loginbutton2
+            // 
+            this.loginbutton2.BackColor = System.Drawing.Color.CornflowerBlue;
+            this.loginbutton2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.loginbutton2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.loginbutton2.Location = new System.Drawing.Point(76, 398);
+            this.loginbutton2.Name = "loginbutton2";
+            this.loginbutton2.Size = new System.Drawing.Size(269, 43);
+            this.loginbutton2.TabIndex = 5;
+            this.loginbutton2.Text = "Log In";
+            this.loginbutton2.UseVisualStyleBackColor = false;
+            this.loginbutton2.Click += new System.EventHandler(this.loginbutton2_Click);
+            // 
+            // gobackbutton
+            // 
+            this.gobackbutton.BackColor = System.Drawing.Color.CornflowerBlue;
+            this.gobackbutton.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.gobackbutton.Location = new System.Drawing.Point(151, 506);
+            this.gobackbutton.Name = "gobackbutton";
+            this.gobackbutton.Size = new System.Drawing.Size(115, 34);
+            this.gobackbutton.TabIndex = 6;
+            this.gobackbutton.Text = "Go back ";
+            this.gobackbutton.UseVisualStyleBackColor = false;
             // 
             // LoginPage
             // 
@@ -81,7 +119,10 @@
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.ClientSize = new System.Drawing.Size(418, 602);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.gobackbutton);
+            this.Controls.Add(this.loginbutton2);
+            this.Controls.Add(this.passwordbox);
+            this.Controls.Add(this.passwordlabel);
             this.Controls.Add(this.usernametextbox);
             this.Controls.Add(this.usernamelabel);
             this.Controls.Add(this.logintitle);
@@ -99,6 +140,9 @@
         private System.Windows.Forms.Label logintitle;
         private System.Windows.Forms.Label usernamelabel;
         private System.Windows.Forms.TextBox usernametextbox;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label passwordlabel;
+        private System.Windows.Forms.TextBox passwordbox;
+        private System.Windows.Forms.Button loginbutton2;
+        private System.Windows.Forms.Button gobackbutton;
     }
 }
