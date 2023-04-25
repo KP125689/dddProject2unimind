@@ -19,7 +19,7 @@ namespace dddProject2
             InitializeComponent();
         }
         
-        string filePath = "C:\\Users\\patrw\\source\\repos\\dddProject2\\userData.csv";
+        string filePath = "C:\\Users\\patrw\\source\\repos\\dddProject2\\userdata2.txt";
         private void label1_Click(object sender, EventArgs e)
         {
 
@@ -67,22 +67,31 @@ namespace dddProject2
 
             if (password == confirmPassword)
             {
-                // The passwords match, add the user to the CSV file
 
-                // Combine the input values into a comma-separated string
-                string line = string.Join(",", username, firstName, lastName, password);
-
-                // Append the line to the CSV file
-                using (StreamWriter file = new StreamWriter(filePath, true))
+                try
                 {
-                    file.WriteLine(line);
+                    // Append the user data to the text file
+                    
+                    using (StreamWriter writer = File.AppendText(filePath))
+                    {
+                        writer.WriteLine(filePath);
+                    }
+
+                    // Show a success message
+                    MessageBox.Show("Registration successful!");
+                    this.Hide();
+
+                    HelloStudent hello = new HelloStudent();
+                    hello.Show();
+                    
+                }
+                catch (Exception ex)
+                {
+                    // Show an error message
+                    MessageBox.Show("Registration failed " + ex.Message);
                 }
 
-                MessageBox.Show("registration successfull");
-
-                HelloStudent hello = new HelloStudent();
-                hello.Show();
-                this.Hide();
+                
             }
             else
             {
@@ -95,9 +104,7 @@ namespace dddProject2
         }
         private void RegisterPage_Load(object sender, EventArgs e)
         {
-            Homepage2 homepage2 = new Homepage2();
-            homepage2.Show();
-            this.Hide();
+            
 
         }
     }

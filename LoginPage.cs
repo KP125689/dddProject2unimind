@@ -1,10 +1,12 @@
-﻿using System;
+﻿using Newtonsoft.Json.Linq;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.IO;
 using System.Linq;
+using System.Management.Instrumentation;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -43,29 +45,20 @@ namespace dddProject2
             string password = passwordbox.Text;
 
             // Read all lines from the CSV file
+            string filePath = "C:\\Users\\patrw\\source\\repos\\dddProject2\\userData.csv";
             string[] lines = File.ReadAllLines(filePath);
 
-            // Loop through each line in the file
-            foreach (string line in lines)
-            {
-                // Split the line by commas to get the individual values
-                string[] values = line.Split(',');
+            // Check if the entered username and password exist in the file
+            
 
-                // Check if the username and password match the values in this row
-                if (values[0] == username && values[1] == password)
-                {
-                    MessageBox.Show("log in successfull");
-                    HelloStudent hello2 = new HelloStudent();
-                    hello2.Show();
-                    this.Hide();
-                }
-                else
-                {
-                    MessageBox.Show("invalid details please try again");
-                }
-            }
+
+
+
+
+
+
+
         }
-
         private void usernametextbox_TextChanged(object sender, EventArgs e)
         {
 

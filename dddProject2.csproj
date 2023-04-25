@@ -242,10 +242,6 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <None Include="userData.csv">
-      <SubType>Form</SubType>
-    </None>
-    <None Include="userData.Designer.csv" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -309,6 +305,10 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\download3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="journal.txt" />
+    <Content Include="userdata2.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
