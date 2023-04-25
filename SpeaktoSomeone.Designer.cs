@@ -84,7 +84,7 @@
             this.HullSSButton.TabIndex = 8;
             this.HullSSButton.Text = "Hull student Services";
             this.HullSSButton.UseVisualStyleBackColor = false;
-            this.HullSSButton.Click += new System.EventHandler(this.HullSSButton_Click);
+           
             // 
             // uniwellbeingButton
             // 
@@ -116,7 +116,7 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::dddProject2.Properties.Resources.SAMARITANS_LAUNCHES_APP;
+         
             this.pictureBox1.Location = new System.Drawing.Point(23, 88);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(100, 61);
@@ -126,7 +126,7 @@
             // 
             // pictureBox2
             // 
-            this.pictureBox2.Image = global::dddProject2.Properties.Resources.unnamed;
+     
             this.pictureBox2.Location = new System.Drawing.Point(23, 174);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(100, 61);
@@ -136,7 +136,6 @@
             // 
             // pictureBox3
             // 
-            this.pictureBox3.Image = global::dddProject2.Properties.Resources.uniwellbeing_icon;
             this.pictureBox3.Location = new System.Drawing.Point(23, 256);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(100, 61);
@@ -146,7 +145,7 @@
             // 
             // pictureBox4
             // 
-            this.pictureBox4.Image = global::dddProject2.Properties.Resources.download3;
+         
             this.pictureBox4.Location = new System.Drawing.Point(23, 357);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(100, 61);

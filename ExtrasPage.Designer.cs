@@ -136,7 +136,7 @@
             // pictureBox5
             // 
             this.pictureBox5.BackColor = System.Drawing.Color.CornflowerBlue;
-            this.pictureBox5.Image = global::dddProject2.Properties.Resources._23232;
+         
             this.pictureBox5.Location = new System.Drawing.Point(29, 352);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(55, 55);
@@ -147,7 +147,7 @@
             // pictureBox4
             // 
             this.pictureBox4.BackColor = System.Drawing.Color.CornflowerBlue;
-            this.pictureBox4.Image = global::dddProject2.Properties.Resources.downloadsocial;
+
             this.pictureBox4.Location = new System.Drawing.Point(29, 291);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(55, 55);
@@ -158,7 +158,7 @@
             // pictureBox3
             // 
             this.pictureBox3.BackColor = System.Drawing.Color.CornflowerBlue;
-            this.pictureBox3.Image = global::dddProject2.Properties.Resources.download1221;
+           
             this.pictureBox3.Location = new System.Drawing.Point(29, 228);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(55, 55);
@@ -169,7 +169,7 @@
             // pictureBox2
             // 
             this.pictureBox2.BackColor = System.Drawing.Color.CornflowerBlue;
-            this.pictureBox2.Image = global::dddProject2.Properties.Resources.images2;
+    
             this.pictureBox2.Location = new System.Drawing.Point(29, 167);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(55, 55);
@@ -180,7 +180,7 @@
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.CornflowerBlue;
-            this.pictureBox1.Image = global::dddProject2.Properties.Resources.download1;
+       
             this.pictureBox1.Location = new System.Drawing.Point(29, 109);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(55, 55);
