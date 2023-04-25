@@ -57,5 +57,11 @@ namespace dddProject2
         {
 
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            var home = new HelloStudent();
+            home.Show();
+        }
     }
 }

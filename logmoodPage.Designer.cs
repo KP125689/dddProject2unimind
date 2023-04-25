@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
             System.Windows.Forms.TextBox textBox2;
             this.label1 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
@@ -46,6 +45,19 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
+            // 
+            // textBox2
+            // 
+            textBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
+            textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            textBox2.ForeColor = System.Drawing.Color.White;
+            textBox2.Location = new System.Drawing.Point(24, 74);
+            textBox2.Multiline = true;
+            textBox2.Name = "textBox2";
+            textBox2.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            textBox2.Size = new System.Drawing.Size(208, 113);
+            textBox2.TabIndex = 4;
+            textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // label1
             // 
@@ -87,19 +99,6 @@
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
-            // textBox2
-            // 
-            textBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
-            textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            textBox2.ForeColor = System.Drawing.Color.White;
-            textBox2.Location = new System.Drawing.Point(24, 74);
-            textBox2.Multiline = true;
-            textBox2.Name = "textBox2";
-            textBox2.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            textBox2.Size = new System.Drawing.Size(208, 113);
-            textBox2.TabIndex = 4;
-            textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
-            // 
             // button3
             // 
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
@@ -111,6 +110,7 @@
             this.button3.TabIndex = 5;
             this.button3.Text = "Home";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button4
             // 
@@ -196,9 +196,8 @@
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "logmoodPage";
-            
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "logmoodPage";
             this.Load += new System.EventHandler(this.logmoodPage_Load);
