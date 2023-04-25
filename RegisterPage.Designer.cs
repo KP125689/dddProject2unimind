@@ -149,7 +149,7 @@
             this.Controls.Add(this.usernametitle2);
             this.Controls.Add(this.registertitle);
             this.Name = "RegisterPage";
-            // this.Load += new System.EventHandler(this.RegisterPage_Load);
+            this.Load += new System.EventHandler(this.RegisterPage_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
