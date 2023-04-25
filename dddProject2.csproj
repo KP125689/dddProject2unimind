@@ -307,6 +307,21 @@
     <None Include="Resources\download3.png" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\pouting-face_1f621.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\crying-face_1f622.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\neutral-face_1f610.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\slightly-smiling-face_1f642.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\grinning-face-with-smiling-eyes_1f604.gif" />
+  </ItemGroup>
+  <ItemGroup>
     <Content Include="journal.txt" />
     <Content Include="userdata2.txt" />
   </ItemGroup>

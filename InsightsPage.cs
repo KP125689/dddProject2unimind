@@ -34,7 +34,7 @@ namespace dddProject2
         private async void button1_Click(object sender, EventArgs e)
         {
 
-            var openAI = new OpenAIAPI("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");
+            var openAI = new OpenAIAPI("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");
             CompletionRequest completionRequest = new CompletionRequest();
             completionRequest.Prompt = richTextBox1.Text;
             completionRequest.Model = OpenAI_API.Models.Model.DavinciText;
@@ -49,7 +49,9 @@ namespace dddProject2
 
         private void button2_Click(object sender, EventArgs e)
         {
-            
+            var extra = new ExtrasPage();
+            extra.Show();
+
         }
     }
 }

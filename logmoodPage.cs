@@ -39,7 +39,7 @@ namespace dddProject2
         }
 
         private void logmoodPage_Load(object sender, EventArgs e)
-        {
+        { 
 
         }
 
@@ -56,6 +56,12 @@ namespace dddProject2
         private void panel1_Paint(object sender, PaintEventArgs e)
         {
 
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            var home = new HelloStudent();
+            home.Show();
         }
     }
 }
