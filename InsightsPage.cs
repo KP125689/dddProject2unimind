@@ -24,9 +24,17 @@ namespace dddProject2
 
         }
 
-        private async void kryptonButton1_Click(object sender, EventArgs e)
+      
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
         {
-            var openAI = new OpenAIAPI("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");
+
+        }
+
+        private async void button1_Click(object sender, EventArgs e)
+        {
+
+            var openAI = new OpenAIAPI("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");
             CompletionRequest completionRequest = new CompletionRequest();
             completionRequest.Prompt = richTextBox1.Text;
             completionRequest.Model = OpenAI_API.Models.Model.DavinciText;
@@ -37,6 +45,12 @@ namespace dddProject2
             {
                 richTextBox2.Text = completion.Text;
             }
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            var homeopen = new homePage();
+            homeopen.Show();
         }
     }
 }

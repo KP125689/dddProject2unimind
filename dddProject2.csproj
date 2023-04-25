@@ -243,5 +243,48 @@
   <ItemGroup>
     <None Include="Resources\download %281%291.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\33.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\333333.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\32-324405_book-logo-circle-png-transparent-png.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2703379-middle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download1221.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\downloadsocial.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\23232.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>xcopy /y /d "$(SolutionDir)packages\OpenAI.API.*\lib\net*\OpenAI_API.dll" "$(TargetDir)"
+</PostBuildEvent>
+  </PropertyGroup>
 </Project>
