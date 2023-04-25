@@ -49,7 +49,7 @@ namespace dddProject2
 
         private void button2_Click(object sender, EventArgs e)
         {
-            var homeopen = new homePage();
+            var homeopen = new Samaritans();
             homeopen.Show();
         }
     }

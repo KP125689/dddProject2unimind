@@ -10,14 +10,14 @@ using System.Windows.Forms;
 
 namespace dddProject2
 {
-    public partial class homePage : Form
+    public partial class Samaritans : Form
     {
-        public homePage()
+        public Samaritans()
         {
             InitializeComponent();
         }
 
-        private void homePage_Load(object sender, EventArgs e)
+        private void Samaritans_Load(object sender, EventArgs e)
         {
 
         }

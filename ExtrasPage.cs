@@ -20,7 +20,7 @@ namespace dddProject2
 
         private void button1_Click(object sender, EventArgs e)
         {
-            var homepage = new homePage();
+            var homepage = new Samaritans();
             homepage.Show();
         }
 
