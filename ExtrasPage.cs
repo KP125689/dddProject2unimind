@@ -47,8 +47,7 @@ namespace dddProject2
 
         private void EmergencyContactButton_Click(object sender, EventArgs e)
         {
-            var home = new HelloStudent();
-            home.Show();
+            
         }
 
         private void ExtrasPage_Load(object sender, EventArgs e)

@@ -16,7 +16,7 @@ namespace dddProject2
 {
     public partial class LoginPage : Form
     {
-        string filePath = "C:\\Users\\patrw\\source\\repos\\dddProject2\\userData.csv";
+        string filePath = "C:\\Users\\patrw\\source\\repos\\dddProject2\\userdata2.txt";
         public LoginPage()
         {
             InitializeComponent();
@@ -44,18 +44,54 @@ namespace dddProject2
             string username = usernametextbox.Text;
             string password = passwordbox.Text;
 
-            // Read all lines from the CSV file
-            string filePath = "C:\\Users\\patrw\\source\\repos\\dddProject2\\userData.csv";
-            string[] lines = File.ReadAllLines(filePath);
+            try
+            {
+                // Read the user data from the text file
+                
+                string[] lines = File.ReadAllLines(filePath);
 
-            // Check if the entered username and password exist in the file
-            
+                // Check if the entered username and password match a record in the file
+                bool found = false;
+                foreach (string line in lines)
+                {
+                    string[] fields = line.Split(' ');
+                    string txtUsername = fields[0];
+                    string txtPassword = fields[1];
+
+                    if (username == txtUsername && password == txtPassword)
+                    {
+                        found = true;
+                        break;
+                    }
+                }
+
+                if (found)
+                {
+                    // The entered username and password match a record in the file
+                    // Perform the desired action (e.g. show a success message or open a new window)
+                    MessageBox.Show("Login successful!");
+                }
+                else
+                {
+                    // The entered username and password do not match any record in the file
+                    // Show an error message
+                    MessageBox.Show("Invalid username or password!");
+                }
+            }
+            catch (Exception ex)
+            {
+                // Show an error message
+                MessageBox.Show("Login failed: " + ex.Message);
+            }
 
 
 
 
 
 
+            logmoodPage log = new logmoodPage();
+            log.Show();
+            this.Hide();
 
 
         }

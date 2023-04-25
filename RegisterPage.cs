@@ -81,9 +81,10 @@ namespace dddProject2
                     MessageBox.Show("Registration successful!");
                     this.Hide();
 
-                    HelloStudent hello = new HelloStudent();
-                    hello.Show();
-                    
+                    logmoodPage log = new logmoodPage();
+                    log.Show();
+                    this.Hide();
+
                 }
                 catch (Exception ex)
                 {
