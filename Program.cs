@@ -16,7 +16,7 @@ namespace dddProject2
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new RegisterPage());
+            Application.Run(new homePage());
         }
     }
 }
