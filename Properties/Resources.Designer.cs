@@ -63,9 +63,59 @@ namespace dddProject2.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap crying_face_1f622 {
+            get {
+                object obj = ResourceManager.GetObject("crying-face_1f622", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap grinning_face_with_smiling_eyes_1f604 {
+            get {
+                object obj = ResourceManager.GetObject("grinning-face-with-smiling-eyes_1f604", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Home_logo {
             get {
                 object obj = ResourceManager.GetObject("Home_logo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap neutral_face_1f610 {
+            get {
+                object obj = ResourceManager.GetObject("neutral-face_1f610", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pouting_face_1f621 {
+            get {
+                object obj = ResourceManager.GetObject("pouting-face_1f621", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap slightly_smiling_face_1f642 {
+            get {
+                object obj = ResourceManager.GetObject("slightly-smiling-face_1f642", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

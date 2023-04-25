@@ -39,7 +39,7 @@ namespace dddProject2
         }
 
         private void logmoodPage_Load(object sender, EventArgs e)
-        {
+        { 
 
         }
 
