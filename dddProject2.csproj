@@ -182,9 +182,6 @@
     <Compile Include="RegisterPage.Designer.cs">
       <DependentUpon>RegisterPage.cs</DependentUpon>
     </Compile>
-    <Compile Include="homepage.Designer.cs">
-      <DependentUpon>homepage.cs</DependentUpon>
-    </Compile>
     <Compile Include="SpeaktoSomeone.cs">
       <SubType>Form</SubType>
     </Compile>
