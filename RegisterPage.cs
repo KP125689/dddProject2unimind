@@ -96,6 +96,9 @@ namespace dddProject2
 
         private void RegisterPage_Load(object sender, EventArgs e)
         {
+            Homepage2 homepage2 = new Homepage2();
+            homepage2.Show();
+            this.Hide();
 
         }
     }
