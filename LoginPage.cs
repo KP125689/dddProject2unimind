@@ -55,7 +55,9 @@ namespace dddProject2
                 if (values[0] == username && values[1] == password)
                 {
                     MessageBox.Show("log in successfull");
-                    break;
+                    HelloStudent hello2 = new HelloStudent();
+                    hello2.Show();
+                    this.Hide();
                 }
                 else
                 {
@@ -72,6 +74,13 @@ namespace dddProject2
         private void LoginPage_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void gobackbutton_Click(object sender, EventArgs e)
+        {
+            homePage home = new homePage();
+            home.Show();
+            this.Hide();
         }
     }
 }

@@ -18,7 +18,7 @@ namespace dddProject2
         {
             InitializeComponent();
         }
-
+        string filePath = "C:\\Users\\patrw\\source\\repos\\dddProject2\\userData.csv";
         private void label1_Click(object sender, EventArgs e)
         {
 
@@ -75,13 +75,16 @@ namespace dddProject2
                 string line = string.Join(",", username, firstName, lastName, password);
 
                 // Append the line to the CSV file
-                using (StreamWriter file = new StreamWriter("userData.csv", true))
+                using (StreamWriter file = new StreamWriter(filePath, true))
                 {
                     file.WriteLine(line);
                 }
 
                 MessageBox.Show("registration successfull");
-                
+
+                HelloStudent hello = new HelloStudent();
+                hello.Show();
+                this.Hide();
             }
             else
             {
@@ -91,7 +94,9 @@ namespace dddProject2
 
         private void gobackbutton2_Click(object sender, EventArgs e)
         {
-
+            homePage home = new homePage();
+            home.Show();
+            this.Hide();
         }
     }
 }

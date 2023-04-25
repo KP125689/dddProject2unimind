@@ -112,6 +112,7 @@
             this.gobackbutton.TabIndex = 6;
             this.gobackbutton.Text = "Go back ";
             this.gobackbutton.UseVisualStyleBackColor = false;
+            this.gobackbutton.Click += new System.EventHandler(this.gobackbutton_Click);
             // 
             // LoginPage
             // 
