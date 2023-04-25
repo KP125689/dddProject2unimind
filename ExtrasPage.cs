@@ -20,8 +20,8 @@ namespace dddProject2
 
         private void button1_Click(object sender, EventArgs e)
         {
-            var homepage = new Samaritans();
-            homepage.Show();
+            
+            
         }
 
         private void getSocialButton_Click(object sender, EventArgs e)
@@ -45,8 +45,12 @@ namespace dddProject2
 
         private void EmergencyContactButton_Click(object sender, EventArgs e)
         {
-            var samaritans = new Samaritans();
-            samaritans.Show();
+           
+        }
+
+        private void ExtrasPage_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

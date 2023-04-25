@@ -48,7 +48,9 @@ namespace dddProject2
             Process.Start(new ProcessStartInfo(childlineurl) { UseShellExecute = true });
         }
 
-        private void HullSSButton_Click(object sender, EventArgs e)
+       
+
+        private void SpeaktoSomeone_Load(object sender, EventArgs e)
         {
 
         }

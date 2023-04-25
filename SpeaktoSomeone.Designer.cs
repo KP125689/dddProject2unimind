@@ -48,10 +48,9 @@
             this.SPeakTitle.AutoSize = true;
             this.SPeakTitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.SPeakTitle.ForeColor = System.Drawing.SystemColors.Control;
-            this.SPeakTitle.Location = new System.Drawing.Point(21, 27);
-            this.SPeakTitle.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.SPeakTitle.Location = new System.Drawing.Point(28, 33);
             this.SPeakTitle.Name = "SPeakTitle";
-            this.SPeakTitle.Size = new System.Drawing.Size(277, 33);
+            this.SPeakTitle.Size = new System.Drawing.Size(352, 42);
             this.SPeakTitle.TabIndex = 0;
             this.SPeakTitle.Text = "Speak to Someone";
             this.SPeakTitle.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -63,10 +62,10 @@
             this.samaritanButton.BackColor = System.Drawing.Color.CornflowerBlue;
             this.samaritanButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.samaritanButton.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.samaritanButton.Location = new System.Drawing.Point(128, 101);
-            this.samaritanButton.Margin = new System.Windows.Forms.Padding(2);
+            this.samaritanButton.Location = new System.Drawing.Point(171, 124);
+            this.samaritanButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.samaritanButton.Name = "samaritanButton";
-            this.samaritanButton.Size = new System.Drawing.Size(136, 39);
+            this.samaritanButton.Size = new System.Drawing.Size(181, 48);
             this.samaritanButton.TabIndex = 7;
             this.samaritanButton.Text = "Samaritans";
             this.samaritanButton.UseVisualStyleBackColor = false;
@@ -77,24 +76,23 @@
             this.HullSSButton.BackColor = System.Drawing.Color.CornflowerBlue;
             this.HullSSButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.HullSSButton.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.HullSSButton.Location = new System.Drawing.Point(128, 184);
-            this.HullSSButton.Margin = new System.Windows.Forms.Padding(2);
+            this.HullSSButton.Location = new System.Drawing.Point(171, 226);
+            this.HullSSButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.HullSSButton.Name = "HullSSButton";
-            this.HullSSButton.Size = new System.Drawing.Size(136, 39);
+            this.HullSSButton.Size = new System.Drawing.Size(181, 48);
             this.HullSSButton.TabIndex = 8;
             this.HullSSButton.Text = "Hull student Services";
             this.HullSSButton.UseVisualStyleBackColor = false;
-           
             // 
             // uniwellbeingButton
             // 
             this.uniwellbeingButton.BackColor = System.Drawing.Color.CornflowerBlue;
             this.uniwellbeingButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.uniwellbeingButton.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.uniwellbeingButton.Location = new System.Drawing.Point(128, 278);
-            this.uniwellbeingButton.Margin = new System.Windows.Forms.Padding(2);
+            this.uniwellbeingButton.Location = new System.Drawing.Point(171, 342);
+            this.uniwellbeingButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.uniwellbeingButton.Name = "uniwellbeingButton";
-            this.uniwellbeingButton.Size = new System.Drawing.Size(136, 39);
+            this.uniwellbeingButton.Size = new System.Drawing.Size(181, 48);
             this.uniwellbeingButton.TabIndex = 9;
             this.uniwellbeingButton.Text = "UniWellbeing";
             this.uniwellbeingButton.UseVisualStyleBackColor = false;
@@ -105,10 +103,10 @@
             this.childlineButton.BackColor = System.Drawing.Color.CornflowerBlue;
             this.childlineButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.childlineButton.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.childlineButton.Location = new System.Drawing.Point(128, 367);
-            this.childlineButton.Margin = new System.Windows.Forms.Padding(2);
+            this.childlineButton.Location = new System.Drawing.Point(171, 452);
+            this.childlineButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.childlineButton.Name = "childlineButton";
-            this.childlineButton.Size = new System.Drawing.Size(136, 39);
+            this.childlineButton.Size = new System.Drawing.Size(181, 48);
             this.childlineButton.TabIndex = 10;
             this.childlineButton.Text = "ChildLine";
             this.childlineButton.UseVisualStyleBackColor = false;
@@ -116,49 +114,50 @@
             // 
             // pictureBox1
             // 
-         
-            this.pictureBox1.Location = new System.Drawing.Point(23, 88);
+            this.pictureBox1.Location = new System.Drawing.Point(31, 108);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(100, 61);
+            this.pictureBox1.Size = new System.Drawing.Size(133, 75);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 11;
             this.pictureBox1.TabStop = false;
             // 
             // pictureBox2
             // 
-     
-            this.pictureBox2.Location = new System.Drawing.Point(23, 174);
+            this.pictureBox2.Location = new System.Drawing.Point(31, 214);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(100, 61);
+            this.pictureBox2.Size = new System.Drawing.Size(133, 75);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 12;
             this.pictureBox2.TabStop = false;
             // 
             // pictureBox3
             // 
-            this.pictureBox3.Location = new System.Drawing.Point(23, 256);
+            this.pictureBox3.Location = new System.Drawing.Point(31, 315);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(100, 61);
+            this.pictureBox3.Size = new System.Drawing.Size(133, 75);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox3.TabIndex = 13;
             this.pictureBox3.TabStop = false;
             // 
             // pictureBox4
             // 
-         
-            this.pictureBox4.Location = new System.Drawing.Point(23, 357);
+            this.pictureBox4.Location = new System.Drawing.Point(31, 439);
+            this.pictureBox4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(100, 61);
+            this.pictureBox4.Size = new System.Drawing.Size(133, 75);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox4.TabIndex = 14;
             this.pictureBox4.TabStop = false;
             // 
             // SpeaktoSomeone
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.ClientSize = new System.Drawing.Size(322, 479);
+            this.ClientSize = new System.Drawing.Size(429, 590);
             this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.pictureBox2);
@@ -168,10 +167,11 @@
             this.Controls.Add(this.HullSSButton);
             this.Controls.Add(this.samaritanButton);
             this.Controls.Add(this.SPeakTitle);
-            this.Margin = new System.Windows.Forms.Padding(2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "SpeaktoSomeone";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "SpeaktoSomeone";
+            this.Load += new System.EventHandler(this.SpeaktoSomeone_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();

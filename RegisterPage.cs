@@ -8,7 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using static System.Windows.Forms.VisualStyles.VisualStyleElement.StartPanel;
+
 
 namespace dddProject2
 {
@@ -18,6 +18,7 @@ namespace dddProject2
         {
             InitializeComponent();
         }
+        
         string filePath = "C:\\Users\\patrw\\source\\repos\\dddProject2\\userData.csv";
         private void label1_Click(object sender, EventArgs e)
         {
@@ -34,10 +35,7 @@ namespace dddProject2
 
         }
 
-        private void RegisterPage_Load(object sender, EventArgs e)
-        {
-
-        }
+        
 
         private void FNbox_TextChanged(object sender, EventArgs e)
         {
@@ -94,7 +92,6 @@ namespace dddProject2
 
         private void gobackbutton2_Click(object sender, EventArgs e)
         {
-            
         }
     }
 }
