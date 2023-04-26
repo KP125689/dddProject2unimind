@@ -188,7 +188,6 @@
     <Compile Include="SpeaktoSomeone.Designer.cs">
       <DependentUpon>SpeaktoSomeone.cs</DependentUpon>
     </Compile>
-    <Compile Include="SQLDatabse.cs" />
     <EmbeddedResource Include="ExtrasPage.resx">
       <DependentUpon>ExtrasPage.cs</DependentUpon>
     </EmbeddedResource>
