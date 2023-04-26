@@ -126,14 +126,10 @@
     <value>Microsoft Sans Serif, 36pt, style=Bold</value>
   </data>
   <data name="registertitle.Location" type="System.Drawing.Point, System.Drawing">
-    <value>58, 23</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="registertitle.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 0, 2, 0</value>
+    <value>77, 28</value>
   </data>
   <data name="registertitle.Size" type="System.Drawing.Size, System.Drawing">
-    <value>211, 55</value>
+    <value>260, 69</value>
   </data>
   <data name="registertitle.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -163,13 +159,10 @@
     <value>Microsoft Sans Serif, 14pt</value>
   </data>
   <data name="usernametitle2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>22, 102</value>
-  </data>
-  <data name="usernametitle2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 0, 2, 0</value>
+    <value>29, 126</value>
   </data>
   <data name="usernametitle2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>105, 24</value>
+    <value>135, 29</value>
   </data>
   <data name="usernametitle2.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -195,17 +188,15 @@
   <data name="FNtitle.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 14pt</value>
   </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="FNtitle.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="FNtitle.Location" type="System.Drawing.Point, System.Drawing">
-    <value>22, 165</value>
-  </data>
-  <data name="FNtitle.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 0, 2, 0</value>
+    <value>29, 203</value>
   </data>
   <data name="FNtitle.Size" type="System.Drawing.Size, System.Drawing">
-    <value>101, 24</value>
+    <value>131, 29</value>
   </data>
   <data name="FNtitle.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -235,13 +226,10 @@
     <value>NoControl</value>
   </data>
   <data name="LNtitle.Location" type="System.Drawing.Point, System.Drawing">
-    <value>22, 210</value>
-  </data>
-  <data name="LNtitle.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 0, 2, 0</value>
+    <value>29, 258</value>
   </data>
   <data name="LNtitle.Size" type="System.Drawing.Size, System.Drawing">
-    <value>99, 24</value>
+    <value>128, 29</value>
   </data>
   <data name="LNtitle.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -271,13 +259,10 @@
     <value>NoControl</value>
   </data>
   <data name="Pwtitle.Location" type="System.Drawing.Point, System.Drawing">
-    <value>22, 275</value>
-  </data>
-  <data name="Pwtitle.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 0, 2, 0</value>
+    <value>29, 338</value>
   </data>
   <data name="Pwtitle.Size" type="System.Drawing.Size, System.Drawing">
-    <value>92, 24</value>
+    <value>120, 29</value>
   </data>
   <data name="Pwtitle.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -307,13 +292,10 @@
     <value>NoControl</value>
   </data>
   <data name="confpass.Location" type="System.Drawing.Point, System.Drawing">
-    <value>22, 326</value>
-  </data>
-  <data name="confpass.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 0, 2, 0</value>
+    <value>29, 401</value>
   </data>
   <data name="confpass.Size" type="System.Drawing.Size, System.Drawing">
-    <value>137, 20</value>
+    <value>171, 25</value>
   </data>
   <data name="confpass.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
@@ -337,13 +319,13 @@
     <value>Microsoft Sans Serif, 10pt</value>
   </data>
   <data name="usernameTextBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>124, 106</value>
+    <value>165, 130</value>
   </data>
   <data name="usernameTextBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
+    <value>3, 2, 3, 2</value>
   </data>
   <data name="usernameTextBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>161, 23</value>
+    <value>213, 26</value>
   </data>
   <data name="usernameTextBox.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
@@ -364,13 +346,13 @@
     <value>Microsoft Sans Serif, 10pt</value>
   </data>
   <data name="LNbox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>124, 212</value>
+    <value>165, 261</value>
   </data>
   <data name="LNbox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
+    <value>3, 2, 3, 2</value>
   </data>
   <data name="LNbox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>161, 23</value>
+    <value>213, 26</value>
   </data>
   <data name="LNbox.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
@@ -391,13 +373,13 @@
     <value>Microsoft Sans Serif, 10pt</value>
   </data>
   <data name="FNbox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>124, 168</value>
+    <value>165, 207</value>
   </data>
   <data name="FNbox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
+    <value>3, 2, 3, 2</value>
   </data>
   <data name="FNbox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>161, 23</value>
+    <value>213, 26</value>
   </data>
   <data name="FNbox.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
@@ -418,13 +400,13 @@
     <value>Microsoft Sans Serif, 10pt</value>
   </data>
   <data name="Passwordbox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>124, 277</value>
+    <value>165, 341</value>
   </data>
   <data name="Passwordbox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
+    <value>3, 2, 3, 2</value>
   </data>
   <data name="Passwordbox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>161, 23</value>
+    <value>213, 26</value>
   </data>
   <data name="Passwordbox.TabIndex" type="System.Int32, mscorlib">
     <value>9</value>
@@ -445,13 +427,13 @@
     <value>Microsoft Sans Serif, 10pt</value>
   </data>
   <data name="ConfirmPasswordBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>154, 327</value>
+    <value>205, 402</value>
   </data>
   <data name="ConfirmPasswordBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
+    <value>3, 2, 3, 2</value>
   </data>
   <data name="ConfirmPasswordBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>131, 23</value>
+    <value>173, 26</value>
   </data>
   <data name="ConfirmPasswordBox.TabIndex" type="System.Int32, mscorlib">
     <value>10</value>
@@ -472,13 +454,13 @@
     <value>Microsoft Sans Serif, 10pt</value>
   </data>
   <data name="completeRegister.Location" type="System.Drawing.Point, System.Drawing">
-    <value>68, 368</value>
+    <value>91, 453</value>
   </data>
   <data name="completeRegister.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
+    <value>3, 2, 3, 2</value>
   </data>
   <data name="completeRegister.Size" type="System.Drawing.Size, System.Drawing">
-    <value>176, 35</value>
+    <value>235, 43</value>
   </data>
   <data name="completeRegister.TabIndex" type="System.Int32, mscorlib">
     <value>11</value>
@@ -505,13 +487,13 @@
     <value>NoControl</value>
   </data>
   <data name="gobackbutton2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>103, 420</value>
+    <value>137, 517</value>
   </data>
   <data name="gobackbutton2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
+    <value>3, 2, 3, 2</value>
   </data>
   <data name="gobackbutton2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>110, 30</value>
+    <value>147, 37</value>
   </data>
   <data name="gobackbutton2.TabIndex" type="System.Int32, mscorlib">
     <value>12</value>
@@ -535,16 +517,16 @@
     <value>True</value>
   </metadata>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>6, 13</value>
+    <value>8, 16</value>
   </data>
   <data name="$this.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
     <value>GrowAndShrink</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>311, 489</value>
+    <value>415, 602</value>
   </data>
   <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
+    <value>3, 2, 3, 2</value>
   </data>
   <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
     <value>CenterScreen</value>

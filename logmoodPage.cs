@@ -18,7 +18,7 @@ namespace dddProject2
         {
             InitializeComponent();
         }
-        string filepath = "C:\\Users\\patrw\\source\\repos\\dddProject2\\journal.txt";
+        
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
 
@@ -65,18 +65,7 @@ namespace dddProject2
         }
         private void button4_Click(object sender, EventArgs e)
         {
-            // Get the text entered in the text box
-            string userInput = inputtextbox.Text;
-
-            // Create a StreamWriter object to write to the text file
-            using (StreamWriter writer = new StreamWriter(filepath, true))
-            {
-                // Append the user input to the text file on a new line
-                writer.WriteLine(userInput);
-            }
-
-            // Clear the text box
-            inputtextbox.Text = "";
+            
         }
 
         private void inputtextbox_TextChanged(object sender, EventArgs e)

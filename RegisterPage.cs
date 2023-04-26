@@ -19,7 +19,7 @@ namespace dddProject2
             InitializeComponent();
         }
         
-        string filePath = "C:\\Users\\patrw\\source\\repos\\dddProject2\\userdata2.txt";
+        
         private void label1_Click(object sender, EventArgs e)
         {
 
@@ -65,39 +65,8 @@ namespace dddProject2
             string firstName = FNbox.Text;
             string lastName = LNbox.Text;
 
-            if (password == confirmPassword)
-            {
-
-                try
-                {
-                    // Append the user data to the text file
-                    
-                    using (StreamWriter writer = File.AppendText(filePath))
-                    {
-                        writer.WriteLine(filePath);
-                    }
-
-                    // Show a success message
-                    MessageBox.Show("Registration successful!");
-                    this.Hide();
-
-                    logmoodPage log = new logmoodPage();
-                    log.Show();
-                    this.Hide();
-
-                }
-                catch (Exception ex)
-                {
-                    // Show an error message
-                    MessageBox.Show("Registration failed " + ex.Message);
-                }
-
-                
-            }
-            else
-            {
-                MessageBox.Show("registration invalid please try again");
-            }
+           
+            
         }
 
         private void gobackbutton2_Click(object sender, EventArgs e)

@@ -34,7 +34,7 @@ namespace dddProject2
         private async void button1_Click(object sender, EventArgs e)
         {
 
-            var openAI = new OpenAIAPI("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");
+            var openAI = new OpenAIAPI("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");
             CompletionRequest completionRequest = new CompletionRequest();
             completionRequest.Prompt = richTextBox1.Text;
             completionRequest.Model = OpenAI_API.Models.Model.DavinciText;
