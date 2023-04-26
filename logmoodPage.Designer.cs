@@ -35,9 +35,9 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.inputtextbox = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.howbtn = new System.Windows.Forms.Button();
-            this.inputtextbox = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -96,6 +96,7 @@
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 8;
             this.pictureBox2.TabStop = false;
+            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
             // pictureBox1
             // 
@@ -118,6 +119,7 @@
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox3.TabIndex = 9;
             this.pictureBox3.TabStop = false;
+            this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click);
             // 
             // panel1
             // 
@@ -132,6 +134,16 @@
             this.panel1.Size = new System.Drawing.Size(336, 265);
             this.panel1.TabIndex = 10;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
+            // 
+            // inputtextbox
+            // 
+            this.inputtextbox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
+            this.inputtextbox.Location = new System.Drawing.Point(38, 71);
+            this.inputtextbox.Multiline = true;
+            this.inputtextbox.Name = "inputtextbox";
+            this.inputtextbox.Size = new System.Drawing.Size(259, 165);
+            this.inputtextbox.TabIndex = 12;
+            this.inputtextbox.TextChanged += new System.EventHandler(this.inputtextbox_TextChanged);
             // 
             // label2
             // 
@@ -157,16 +169,6 @@
             this.howbtn.Text = "How Are You?";
             this.howbtn.UseVisualStyleBackColor = false;
             this.howbtn.Click += new System.EventHandler(this.howbtn_Click);
-            // 
-            // inputtextbox
-            // 
-            this.inputtextbox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
-            this.inputtextbox.Location = new System.Drawing.Point(38, 71);
-            this.inputtextbox.Multiline = true;
-            this.inputtextbox.Name = "inputtextbox";
-            this.inputtextbox.Size = new System.Drawing.Size(259, 165);
-            this.inputtextbox.TabIndex = 12;
-            this.inputtextbox.TextChanged += new System.EventHandler(this.inputtextbox_TextChanged);
             // 
             // logmoodPage
             // 

@@ -42,5 +42,10 @@ namespace dddProject2
             register.Show();
             this.Hide();
         }
+
+        private void Homepage2_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

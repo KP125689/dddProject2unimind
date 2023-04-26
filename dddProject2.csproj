@@ -144,12 +144,6 @@
     <Compile Include="ExtrasPage.Designer.cs">
       <DependentUpon>ExtrasPage.cs</DependentUpon>
     </Compile>
-    <Compile Include="HelloStudent.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="HelloStudent.Designer.cs">
-      <DependentUpon>HelloStudent.cs</DependentUpon>
-    </Compile>
     <Compile Include="Homepage2.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -197,9 +191,6 @@
     <Compile Include="SQLDatabse.cs" />
     <EmbeddedResource Include="ExtrasPage.resx">
       <DependentUpon>ExtrasPage.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="HelloStudent.resx">
-      <DependentUpon>HelloStudent.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Homepage2.resx">
       <DependentUpon>Homepage2.cs</DependentUpon>

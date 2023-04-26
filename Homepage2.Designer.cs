@@ -114,6 +114,7 @@
             this.Name = "Homepage2";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Homepage2";
+            this.Load += new System.EventHandler(this.Homepage2_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

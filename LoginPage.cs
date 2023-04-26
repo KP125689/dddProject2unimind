@@ -30,12 +30,12 @@ namespace dddProject2
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
-            // user enters text into box and store in CSV file
+            // user enters text into box and store in txt file
         }
 
         private void passwordbox_TextChanged(object sender, EventArgs e)
         {
-            // user enters password adn its stored in CSV
+            // user enters password adn its stored in txt
         }
 
         private void loginbutton2_Click(object sender, EventArgs e)

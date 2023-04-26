@@ -21,8 +21,8 @@ namespace dddProject2
         private void button1_Click(object sender, EventArgs e)
         {
             //daily journal, so home page
-            HelloStudent hello = new HelloStudent();
-            hello.Show();
+            logmoodPage log = new logmoodPage();
+            log.Show();
             this.Hide();
 
 
@@ -66,8 +66,8 @@ namespace dddProject2
         private void pictureBox6_Click(object sender, EventArgs e)
         {
             //home page
-            HelloStudent hello = new HelloStudent();
-            hello.Show();
+            logmoodPage log = new logmoodPage();
+            log.Show();
             this.Hide();
         }
     }

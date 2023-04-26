@@ -65,8 +65,10 @@ namespace dddProject2
             string firstName = FNbox.Text;
             string lastName = LNbox.Text;
 
-           
-            
+           // need to add validation of real/ unique user
+            logmoodPage logmoodPage = new logmoodPage();
+            logmoodPage.Show();
+            this.Hide();
         }
 
         private void gobackbutton2_Click(object sender, EventArgs e)

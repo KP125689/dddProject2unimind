@@ -49,8 +49,9 @@ namespace dddProject2
 
         private void button2_Click(object sender, EventArgs e)
         {
-            var extra = new ExtrasPage();
-            extra.Show();
+            var logmoodPage = new ExtrasPage();
+            logmoodPage.Show();
+            this.Hide();
 
         }
     }

@@ -48,8 +48,7 @@ namespace dddProject2
 
         private void button3_Click(object sender, EventArgs e)
         {
-            var home = new HelloStudent();
-            home.Show();
+            
         }
 
         private void howbtn_Click(object sender, EventArgs e)
@@ -65,12 +64,37 @@ namespace dddProject2
         }
         private void button4_Click(object sender, EventArgs e)
         {
-            
+            // submit user input 
+            string userInput = inputtextbox.Text;
+
+            // Create a StreamWriter object to write to the text file
+            using (StreamWriter writer = new StreamWriter("journal.txt", true))
+            {
+                // Append the user input to the text file on a new line
+                writer.WriteLine(userInput);
+            }
+
+            // Clear the text box
+            inputtextbox.Text = "";
         }
 
         private void inputtextbox_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            logmoodPage log = new logmoodPage();
+            log.Show();
+            this.Hide();
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+            ExtrasPage extrasPage = new ExtrasPage();   
+            extrasPage.Show();
+            this.Hide();
         }
     }
 }

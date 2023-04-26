@@ -24,7 +24,9 @@ namespace dddProject2
 
         private void button3_Click(object sender, EventArgs e)
         {
-
+            logmoodPage logmoodPage = new logmoodPage();
+            logmoodPage.Show();
+            this.Close();
         }
 
         private void button4_Click(object sender, EventArgs e)
@@ -32,6 +34,17 @@ namespace dddProject2
             ExtrasPage extrasPage = new ExtrasPage();
             extrasPage.Show();
             this.Hide();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            //submit button
+            
+        }
+
+        private void trackBar1_Scroll(object sender, EventArgs e)
+        {
+            //slide bar 
         }
     }
 }
